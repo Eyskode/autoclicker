@@ -24,7 +24,7 @@ if answer == a:
 	  
 	  for num in range (int(num)):
 	  
-	  	pyautogui.click()
+	  	pyautogui.click(clicks=4,interval=0.0001)
 
 
 	  	
